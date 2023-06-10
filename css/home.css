@@ -1,0 +1,197 @@
+
+body {background-color:#050b0b;}
+
+#alal{
+  width:100%;
+}
+
+#sea {max-width: 100%; height: auto;
+      position: absolute;
+      top: 54%;
+      left:0%; 
+      width:100%; 
+      z-index:2; }    
+#ev {
+  display: block;
+        margin: 0 auto;
+        width: 70%;
+        height: auto;
+      }
+#tr {max-width: 100%; height: auto;
+       position: absolute;
+       top: 4%;
+       left:0%; 
+       width: 100%; 
+       z-index: 1; }
+#r1 {max-width: 100%; height: auto;
+       position: absolute;
+       top: 47%;
+       left:0%; 
+       width: 32%; 
+       z-index: 4; }
+#r2 {max-width: 100%; height: auto;
+       position: absolute;
+       top: 45%;
+       left:77%; 
+       width: 23%; 
+       z-index: 4; }
+#r3 {max-width: 100%; height: auto;
+       position: absolute;
+       top: 20%;
+       left:0%; 
+       width: 90%; 
+       z-index: 1; }
+  
+.fox {max-width: 50%;
+  height: auto;
+  position: absolute;
+  top: 40%;
+  left: 6%; 
+  width: 45.85%; 
+  z-index: 3;
+  animation: slide-in-fox 2s forwards;}
+.fox img { position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 150%;}
+
+#hepari {max-width: 50%;
+  height: auto;
+  position: absolute;
+  top: 169.04%;
+  left: 3.1%;
+  width: 41.85%;
+  z-index: 2;
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: transform 1s ease-out, opacity 1s ease-out;}
+.hepari img { position: absolute;
+  top: 50%;
+  left: 3.1%;
+  width: 41.85%; 
+  opacity: 0;
+  animation: slide-in 1s forwards;}
+
+@keyframes slide-in-hepari { from { transform: translateX(-100%);opacity: 0;}}
+@keyframes slide-in-ina1 { from { transform: translateX(-100%);opacity: 0;}}
+@keyframes slide-in-fox {from {transform: translateX(100%);opacity: 0; }}
+
+#f1 {max-width: 50%;
+  height: auto;
+  position: absolute;
+  top: 230%;
+  left: 58%;
+  width: 41.85%;
+  z-index: 3;
+  opacity: 0; 
+  transition: opacity 3s;}
+ #f1.fade-in {opacity: 1; }
+
+ #tirtle {max-width: 50%;
+  height: auto;
+  position: absolute;
+  top: 100%;
+  left: 57.5%;
+  width: 38%;
+  z-index: 3;opacity: 0; 
+  transition: opacity 3s;}
+  #tirtle.fade-in {opacity: 1; }
+
+#gao {max-width: 50%;
+  height: auto;
+  position: absolute;
+  top: 290%;
+  left: -6%;
+  width: 50%;
+  z-index: 3;opacity: 0; 
+  transition: opacity 3s;}
+  #gao.fade-in {opacity: 1; }
+
+.container {
+      position: relative;
+      width: 400px; /* 이미지를 감싸는 컨테이너의 너비 */
+      height: 400px; /* 이미지를 감싸는 컨테이너의 높이 */
+    }
+    
+.container img {
+      max-width: 25%;
+      position: absolute;
+      top: 570%;
+      left: -20%;
+      z-index: 3;
+      transition: transform 0.7s ease; /* 이동 애니메이션 설정 */
+    }
+    
+.container img.clicked {
+      transform: translate(250px, 0px); /* 이미지를 이동시킬 위치 설정 */
+    }
+    
+    
+
+  #ugly {max-width: 40%;
+    height: auto;
+    position: absolute;
+    top: 595%;
+    left: 40%;
+    width: 50%;
+    z-index: 3;opacity: 0; 
+    transition: opacity 3s;}
+    #ugly.fade-in {opacity: 1; }
+
+    #agi {
+      height: auto;
+      position: absolute;
+      top: 485%;
+      left: -18%;
+      width: 90%;
+      opacity: 0.75;
+      z-index: 3; }
+
+  #banzzak {max-width: 40%;
+    height: auto;
+    position: absolute;
+    top: 555%;
+    left: 48%;
+    width: 50%;
+    z-index: 3;opacity: 0; 
+    transition: opacity 3s;}
+    #banzzak.fade-in {opacity: 1; }
+
+    #cute {max-width: 20%;
+      height: auto;
+      position: absolute;
+      top: 580%;
+      left: 13%;
+      width: 50%;
+      z-index: 3;opacity: 0; 
+      transition: opacity 3s;}
+      #cute.fade-in {opacity: 1; }
+  
+
+  #ina1 {max-width: 50%;
+  height: auto;
+  position: absolute;
+  top: 700%;
+  left: -1.5%;
+  width: 44.85%;
+  z-index: 4;
+}
+
+  #ina2 {max-width: 50%;
+  height: auto;
+  position: absolute;
+  top: 701%;
+  left: 35%;
+  width: 28%;
+  z-index: 4;opacity: 0; 
+  transition: opacity 5s;}
+  #ina2.fade-in {opacity: 1;}
+
+
+#ina3 {max-width: 50%;
+  height: auto;
+  position: absolute;
+  top: 695%;
+  left: 53.6%; 
+  width: 46%; 
+  z-index: 3;}
