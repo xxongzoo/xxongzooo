@@ -1,0 +1,172 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="./css/home.css">
+<title>Reanon For Everything</title>
+
+</head>
+<div id="alal">
+<body>
+   <img src="img/sea.png" id="sea";>
+   <img src="img/ev.png" id="ev";>
+   <img src="img/tr.png" id="tr";>
+   <img src="img/r1.png" id="r1";> 
+   <img src="img/r2.png" id="r2";>
+   <img src="img/r3.png" id="r3";>
+
+   
+   <div class="fox">
+    <img src="img/fox.png"></div>
+
+  <img src="img/tirtle.png" id="tirtle";>
+   <script>
+    window.addEventListener('scroll', () => {
+      const f1 = document.querySelector('#tirtle');
+      const { top, bottom } = f1.getBoundingClientRect();
+      const { innerHeight } = window;
+  
+      if (bottom > 0 && top < innerHeight) {
+        f1.classList.add('fade-in');
+      } else {
+        f1.classList.remove('fade-in');
+      }
+    });
+    </script>
+  
+  <div class="scroll-container"> 
+   <a href="indexx.html">
+        <img src="img/hepari.png" id="hepari">
+      </a></div>
+     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll/dist/locomotive-scroll.min.js"></script>
+     <script>
+      const scroll = new LocomotiveScroll({
+     el: document.querySelector(".scroll-container"),
+      smooth: true,});
+      scroll.on("scroll", function (obj) {
+     const element = document.querySelector("#hepari");
+     const bounding = element.getBoundingClientRect();
+     if (bounding.top < window.innerHeight) {
+      element.style.transform = "translateX(0)";
+      element.style.opacity = 1;
+     }});
+     </script>
+
+
+<img src="img/F1.png" id="f1">
+ <script>
+  window.addEventListener('scroll', () => {
+    const f1 = document.querySelector('#f1');
+    const { top, bottom } = f1.getBoundingClientRect();
+    const { innerHeight } = window;
+
+    if (bottom > 0 && top < innerHeight) {
+      f1.classList.add('fade-in');
+    } else {
+      f1.classList.remove('fade-in');
+    }
+  });
+ </script>
+
+<img src="img/gao.png" id="gao">
+<script>
+ window.addEventListener('scroll', () => {
+   const f1 = document.querySelector('#gao');
+   const { top, bottom } = f1.getBoundingClientRect();
+   const { innerHeight } = window;
+
+   if (bottom > 0 && top < innerHeight) {
+     f1.classList.add('fade-in');
+   } else {
+     f1.classList.remove('fade-in');
+   }
+ });
+</script>
+
+<div class="container">
+  <img src="img/gebok.gif" alt="gebok">
+</div>
+
+
+<img src="img/ugly.png" id="ugly">
+<script>
+  window.addEventListener('scroll', () => {
+    const f1 = document.querySelector('#ugly');
+    const { top, bottom } = f1.getBoundingClientRect();
+    const { innerHeight } = window;
+ 
+    if (bottom > 0 && top < innerHeight) {
+      f1.classList.add('fade-in');
+    } else {
+      f1.classList.remove('fade-in');
+    }
+  });
+ </script>
+
+<img src="img/agi.png" id="agi">
+
+<img src="img/banzzak.gif" id="banzzak">
+<script>
+  window.addEventListener('scroll', () => {
+    const f1 = document.querySelector('#banzzak');
+    const { top, bottom } = f1.getBoundingClientRect();
+    const { innerHeight } = window;
+ 
+    if (bottom > 0 && top < innerHeight) {
+      f1.classList.add('fade-in');
+    } else {
+      f1.classList.remove('fade-in');
+    }
+  });
+ </script>
+
+<img src="img/cute.GIF" id="cute">
+<script>
+  window.addEventListener('scroll', () => {
+    const f1 = document.querySelector('#cute');
+    const { top, bottom } = f1.getBoundingClientRect();
+    const { innerHeight } = window;
+ 
+    if (bottom > 0 && top < innerHeight) {
+      f1.classList.add('fade-in');
+    } else {
+      f1.classList.remove('fade-in');
+    }
+  });
+ </script>
+ 
+<script>
+  document.querySelector('.container img').addEventListener('click', function() {
+  this.classList.toggle('clicked'); // 이미지에 'clicked' 클래스를 토글하여 위치 변경
+});
+
+</script>
+<div class="scroll-container2"> 
+       <img src="img/ina1.png" id="ina1">
+     </div>
+
+     
+
+<div class="ina2"> 
+  <a href="me.html">
+       <img src="img/ina2.png" id="ina2">
+     </a></div>
+     <script>
+      window.addEventListener('scroll', () => {
+        const f1 = document.querySelector('#ina2');
+        const { top, bottom } = f1.getBoundingClientRect();
+        const { innerHeight } = window;
+     
+        if (bottom > 0 && top < innerHeight) {
+          f1.classList.add('fade-in');
+        } else {
+          f1.classList.remove('fade-in');
+        }
+      });
+     </script>
+
+  <img src="img/ina3.png"id="ina3";>
+
+</div>
+</body>
+</html>
